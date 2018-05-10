@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Substance
-  class Presenter < SimpleDelegator
+  class Presenter < ::SimpleDelegator
     attr_reader :view
 
     class << self

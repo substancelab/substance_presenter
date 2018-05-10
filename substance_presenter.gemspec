@@ -6,9 +6,8 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.authors     = ["Ole Palm", "Jakob Skjerning", "Jakob Dam Jensen"]
   s.email       = "ole.palm@substancelab.com"
-  s.files       = ["lib/substance_presenter.rb"]
+  s.files       = Dir["{lib}/*"] + ["Rakefile"]
   s.homepage    =
     'http://rubygems.org/gems/substance_presenter'
   s.license       = 'MIT'
-  s.add_development_dependency "rspec", "~> 3"
 end
