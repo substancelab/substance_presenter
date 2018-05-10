@@ -4,7 +4,7 @@ SubstancePresenter
 An easy to use presenter implementation
 
 
-[![Build Status](https://travis-ci.org/substancelab/substance_presenter.svg?branch=master)](https://travis-ci.org/substancelab/substance_presenter)
+[![Build Status](https://travis-ci.com/substancelab/substance_presenter.svg?branch=master)](https://travis-ci.com/substancelab/substance_presenter)
 
 
 Usage examples
