@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.authors     = ["Ole Palm", "Jakob Skjerning", "Jakob Dam Jensen"]
   s.email       = "ole.palm@substancelab.com"
-  s.files       = ["lib/substancelab_presenter.rb"]
+  s.files       = ["lib/substance_presenter.rb"]
   s.homepage    =
     'http://rubygems.org/gems/substance_presenter'
   s.license       = 'MIT'
