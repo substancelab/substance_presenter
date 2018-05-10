@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
+require 'delegate'
+
 module Substance
-  class Presenter < SimpleDelegator
+  class Presenter < ::SimpleDelegator
     attr_reader :view
 
     class << self

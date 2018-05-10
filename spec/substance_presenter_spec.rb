@@ -14,14 +14,11 @@ RSpec.describe Substance::Presenter do
     end
   end
 
-  class FakeViewContext
-  end
-
   let(:object) {
     TestObject.new
   }
   let(:view_context) {
-    FakeViewContext.new
+    Object.new
   }
 
   subject(:presented_object) {
