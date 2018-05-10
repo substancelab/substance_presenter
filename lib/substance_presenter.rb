@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class SubstancePresenter < SimpleDelegator
+class Presenter < SimpleDelegator
   attr_reader :view
 
   class << self
