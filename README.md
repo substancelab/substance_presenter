@@ -27,6 +27,22 @@ Writing your own presenter is really just a matter of subclassing:
 
 Then you are ready to fill your presenter with methods!
 
+Helpers:
+--------
+
+We have provided a helper to make it easier to present models in view contexts.
+Include the presenter helper in a view helper like this:
+
+    require 'substance/rails/view_helper'
+
+    module PresentersHelper
+      include SubstancePresenter::Rails::ViewHelper
+    end
+
+Which gives you the possibility to present an object:
+
+    presented_object = present(object, Substance::Presenter)
+
 License
 -------
 
