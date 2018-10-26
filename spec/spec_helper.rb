@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require 'bundler/setup'
 Bundler.setup
 
-require 'substance_presenter'
-require 'view_helper'
+require 'substance/presenter'
+require 'substance/rails/view_helper'

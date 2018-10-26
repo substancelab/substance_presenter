@@ -1,3 +1,7 @@
+# frozen_string_literal: true
+
+require "substance/presenter"
+
 module Substance
   class Presenter
     module Rails

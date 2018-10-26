@@ -1,5 +1,7 @@
-require "substance_presenter"
-require "view_helper"
+# frozen_string_literal: true
+
+require "substance/presenter"
+require "substance/rails/view_helper"
 require "spec_helper"
 
 RSpec.describe Substance::Presenter::Rails::ViewHelper do
