@@ -5,6 +5,8 @@ $:.push File.expand_path("..", __FILE__)
 require 'delegate'
 
 module Substance
+  # Wraps the object in a presenter, mainly for adding presentation methods,
+  # that does not belong in the main object model
   class Presenter < ::SimpleDelegator
     attr_reader :view
 
