@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = "ole.palm@substancelab.com"
   s.files       = Dir["{lib}/*"] + ["Rakefile"]
   s.homepage    =
-    'http://rubygems.org/gems/substance_presenter'
+    "https://github.com/substancelab/substance_presenter"
   s.license       = 'MIT'
 end
