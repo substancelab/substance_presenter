@@ -20,6 +20,13 @@ Presenting a collection:
 
 Note: a view context can be nil, if not needed
 
+Writing your own presenter is really just a matter of subclassing:
+
+    class MyOwnPresenter < Substance::Presenter
+    end
+
+Then you are ready to fill your presenter with methods!
+
 License
 -------
 
