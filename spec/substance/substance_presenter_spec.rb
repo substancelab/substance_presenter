@@ -1,4 +1,6 @@
-require 'substance_presenter'
+# frozen_string_literal: true
+
+require 'substance/presenter'
 require "spec_helper"
 
 RSpec.describe Substance::Presenter do
