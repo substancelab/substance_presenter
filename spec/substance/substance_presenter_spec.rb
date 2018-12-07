@@ -16,16 +16,17 @@ RSpec.describe Substance::Presenter do
     end
   end
 
-  let(:object) {
+  let(:object) do
     TestObject.new
-  }
-  let(:view_context) {
-    Object.new
-  }
+  end
 
-  subject(:presented_object) {
+  let(:view_context) do
+    Object.new
+  end
+
+  subject(:presented_object) do
     TestObjectPresenter.new(object, view_context)
-  }
+  end
 
   it "decorates the object" do
     expect(subject.decorated_greeting).to eq("Hello from the presenter")
