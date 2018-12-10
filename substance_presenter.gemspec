@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'substance_presenter'
-  s.version     = '0.9.0'
+  s.version     = '0.9.1'
   s.summary     = "An easy to use presenter implementation"
   s.description = s.summary
   s.authors     = ["Ole Palm", "Jakob Skjerning", "Jakob Dam Jensen"]
