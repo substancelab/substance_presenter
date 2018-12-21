@@ -36,7 +36,7 @@ Include the presenter helper in a view helper like this:
     require 'substance/rails/view_helper'
 
     module PresentersHelper
-      include SubstancePresenter::Rails::ViewHelper
+      include Substance::Presenter::Rails::ViewHelper
     end
 
 Which gives you the possibility to present an object:
